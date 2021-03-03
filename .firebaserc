@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "dsaproject-719e9": {
+      "hosting": {
+        "hrms-app": [
+          "dsaproject-719e9"
+        ]
+      }
+    }
+  }
+}

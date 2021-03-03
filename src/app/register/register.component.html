@@ -1,0 +1,38 @@
+<!-- Default form login -->
+<div class="container">
+    <!-- <form class="text-center border border-light p-5 form"> -->
+    <form method="POST" class="text-center border border-light p-5 form" (ngSubmit)="onRegister()">
+
+        <p class="h4 mb-4">Sign in</p>
+
+        <!-- Email -->
+        <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail"
+            [(ngModel)]="registerId" name="registerId">
+
+        <!-- Password -->
+        <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password"
+            [(ngModel)]="registerPassword" name="registerPassword">
+
+        <h3> Enter your personal details</h3>
+
+        <input type="text" id="defaultLoginFormName" class="form-control mb-4" placeholder="Name" [(ngModel)]="name"
+            name="password">
+
+        <input type="text" id="defaultLoginFormDepartment" class="form-control mb-4" placeholder="Department"
+            [(ngModel)]="department" name="department">
+
+        <input type="number" id="defaultLoginFormSalary" class="form-control mb-4" placeholder="salary"
+            [(ngModel)]="salary" name="salary">
+
+
+        <!-- Sign in button -->
+        <!-- <button class=" btn btn-primary" type="submit" (click)="onLogin()">Sign in</button> -->
+        <button class=" btn btn-primary" type="submit">Register</button>
+
+        <!-- Register -->
+        <p>Already a member?
+            <a href="">Login</a>
+        </p>
+    </form>
+</div>
+<!-- Default form login -->
